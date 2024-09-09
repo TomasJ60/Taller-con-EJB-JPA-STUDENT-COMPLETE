@@ -130,7 +130,7 @@
                     <td>
                         <select name="courseCode" id="courseCode">
                             <c:forEach var="course" items="${allCourses}">
-                                <option value="${course.coursecode}">${course.namecourse}</option>
+                                <option value="${course.coursecode}">${course.namecourse} holaaa</option>
                             </c:forEach>
                         </select>
                     </td>
